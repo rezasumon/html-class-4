@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+
+        <ul>
+        <li><label >Name:</label> <input type="text" name="name"  value="" /></li>
+        <li><label >Email:</label> <input type="text" name="email"  value="" /></li>
+        <li><label >Password:</label> <input type="password" name="pwd" value="" /></li>
+        </ul>
+        
+        <ul>
+          <li>Please check all the emotions that apply to you:
+            <ul>
+              <li><label>Angry</label> <input type="checkbox"value="angry"></li>
+              <li><label >Sad</label> <input type="checkbox"  value="sad"></li>
+              <li><label >Happy</label> <input type="checkbox"  value="happy"></li>
+              <li><label >Ambivalent</label> <input type="checkbox" ></li>
+            </ul>
+          </li>
+          <li>How satisfied were you with our service?
+            <ul>
+              <li><label>Very satisfied</label> <input type="radio"  value="vsat"></li>
+              <li><label >Satisfied</label> <input type="radio" value="sat"></li>
+              <li><label >Didn't care</label> <input type="radio"  value="dcare"></li>
+              <li><label >Dissatisfied</label> <input type="radio"  value="disat"></li>
+              <li><label >Very dissatisfied</label> <input type="radio" ></li>
+            </ul>
+          </li>
+          <li><label for="comments">Further comments:</label> <textarea name="comments"  cols="25" rows="3"></textarea></li>
+        </ul>
+        
+        <ul>
+          <li><label for="photo">Bio photo:</label> <input type="file"  value="" /></li>
+          <li><label for="location">Location visited:</label>
+          <select name="location" >
+            <option value="">Select location</option>
+            <option value="nyork">New York</option>
+            <option value="vancouver">Vancouver</option>
+            <option value="atlantis">Atlantis</option>
+            <option value="alpha">Alpha Centauri</option>
+            <option value="blackpool">Blackpool</option>
+            <option value="bognor">Bognor Regis</option>
+          </select></li>
+        </ul>
+        
+        <li><input type="submit" value="submit" /></li>
+        
+        </form> 
+</body>
+</html>

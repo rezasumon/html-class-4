@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgba(169, 161, 218, 0.67);
+   
+}
+.mainbox{
+    padding: 2px ;
+    margin: 2px solid;
+    background: rgb(75, 64, 64);
+    width: 80%;
+    height: 500px;
+}
+.submain1{
+    padding: 2px ;
+    margin: 2px solid;
+    background: rgb(92, 106, 112);
+    width: 50%;
+}
+.submain2{
+    padding: 2px ;
+    margin: 2px solid;
+    background: rgb(228, 231, 179);
+    width: 50%;
+}
